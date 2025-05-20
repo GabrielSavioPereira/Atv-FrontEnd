@@ -1,0 +1,44 @@
+form {
+  background-color: #2a1f45;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 12px;
+  max-width: 60vw;
+  width: 60vw;
+}
+
+form input {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+button {
+  background-color: #08001d;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 1.5s;
+}
+
+button:hover {
+  background-color: #140144;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.messagesContainer {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
